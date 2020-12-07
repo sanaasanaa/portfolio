@@ -1,0 +1,119 @@
+/* * {
+      border: 1px solid white;
+} */
+
+header {  
+      height: 15vh;
+      margin: 1rem;
+      text-align: center;      
+}
+
+body {
+      background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin: 0;
+} 
+
+.titre{
+      color: grey;
+      font-size: 2rem;
+      margin: 20px auto;
+      text-align: center;
+      font-family: monospace;
+      font-style: italic;
+}
+
+
+
+p {
+      
+      color: grey;
+      width: 50%;
+      font-size: 1.5rem;
+      font-family: monospace;
+
+}
+.photoprofile{
+
+      width: 200px;
+      height: 200px;
+      border-radius: 200px;
+      margin: 100px auto;
+      margin-top: 200px;
+}
+main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+}
+.figures {
+      width: 100%;
+      display: flex;
+      /* flex-direction: column; */
+      /* flex-wrap: wrap; */
+      /* padding: 30px; */
+      margin-top: 10rem;
+      margin-right: 20rem;
+      margin-left: 10rem;
+      margin-block-end: 150px;
+}
+figure {
+      width: 33%;
+      /* padding: 100px; */
+      
+}
+
+img {
+      width: 30vw; 
+      height:  300px;
+}
+.techno {
+      width: 100px;
+      height: 100px;
+
+}
+.logos {
+      display: flex;
+      justify-content: space-around;
+      margin-block-end: 150px;
+}
+.fab fa-php {
+      color: lavender;
+}
+.formulaire {
+text-align: center;
+
+}
+.icone {
+      width: 40px;
+      height: 40px;
+      
+}
+.input{
+border: none;
+width: 20rem;
+line-height: 30px;
+padding: 7px 1rem;
+font-size: 1.2rem;
+border-radius: 10px;
+}
+.btn-submit{
+      padding: 14px 20px;
+      font-size: 1.2rem;
+      width: 22rem;
+      border-radius: 10px;
+      background-color:#318fb5;
+      border: none;
+}
+footer {
+      height: 10vh;
+      background-color: dimgrey;
+      margin-top: 5rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+}
